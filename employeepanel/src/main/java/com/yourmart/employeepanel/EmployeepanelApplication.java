@@ -18,11 +18,8 @@ public class EmployeepanelApplication {
 
 	private final static Logger LOGGER = LoggerFactory.getLogger(EmployeepanelApplication.class);
 
-	 
-
 	public static void main(String[] args) {
 		SpringApplication.run(EmployeepanelApplication.class, args);
-		LOGGER.info("--------------------------------");
 	}
 
 }
